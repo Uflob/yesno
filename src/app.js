@@ -56,9 +56,14 @@ app.get('/', function (request, response) {
 //}
 // et dans ce cas, dans app.get, partie const data, on met "answer"=aleatoire()
 
-const imageY = ["https://media1.tenor.com/m/uqz_oXiz8usAAAAC/pedro-pascal.gif",
-   "https://media1.tenor.com/m/pYsjfAztEw8AAAAd/jack-nicholson-yes.gif"]
-const imageN = ["https://media.tenor.com/qDp2jVc3J4UAAAAi/no-love-without-love.gif","https://media1.tenor.com/m/4LMHc8wJliQAAAAd/crying-hysterically-crying-meme.gif"]
+const imageY = [
+   "/images/uqz_oXiz8usAAAAC/pedro-pascal.gif",
+   "/images/pYsjfAztEw8AAAAd/jack-nicholson-yes.gif",
+]
+const imageN = [
+   "/images/qDp2jVc3J4UAAAAi/no-love-without-love.gif",
+   "/images/4LMHc8wJliQAAAAd/crying-hysterically-crying-meme.gif",
+]
 // plutôt que de prendre des images moi-même sur le web, j'aurais pu aller sur le site officiel yesno.wtf/api, lancer ça dans mon Terminal avec npx bidule
 // copier plusieurs de leurs lignes "answer" : "no" etc.
 // les coller dans une variable ici
